@@ -1,0 +1,11 @@
+<div class="media">
+<!--    for each piece of data in the dataContext json file -->
+    {{#each partials.dataContext.shows}}
+        <div class="show">
+            
+            Show Name: {{title}} <br>
+            Year Released:{{year_released}} <br>
+            Genre: {{genre}} <br>
+        </div>
+    {{/each}}
+</div>
